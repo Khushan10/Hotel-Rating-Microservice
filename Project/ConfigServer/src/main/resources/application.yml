@@ -1,0 +1,14 @@
+server:
+  port:
+    8085
+
+spring:
+  application:
+    name: CONFIG-SERVER
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Khushan10/Hotel-Rating-Microservice/tree/main/configfiles
+#          clone-on-start: true

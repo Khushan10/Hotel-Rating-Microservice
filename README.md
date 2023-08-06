@@ -12,3 +12,7 @@ Tech Stack:
 5. Maven
 6. Java 17
 7. POSTMAN
+
+
+Architecture Preview
+![Architecture](https://github.com/Khushan10/Hotel-Rating-Microservice/assets/70143208/171b291e-94e7-4b93-880e-40ab3d82061f)

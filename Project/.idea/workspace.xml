@@ -33,20 +33,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Notification.DisplayName-DoNotAsk-WindowsDefender": "Microsoft Defender configuration",
-    "Notification.DoNotAsk-WindowsDefender": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Code/Springboot/ConfigServer",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Notification.DisplayName-DoNotAsk-WindowsDefender&quot;: &quot;Microsoft Defender configuration&quot;,
+    &quot;Notification.DoNotAsk-WindowsDefender&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Code/Springboot/ConfigServer&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.project.user.service.config.interceptor" />
+      <recent name="com.project.gateway.models.AuthResponse" />
       <recent name="com.project.hotel.service.exceptions" />
       <recent name="com.project.user.service.payload" />
     </key>
@@ -55,12 +57,25 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="HotelServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.project.hotel.service.HotelServiceApplication" />
-      <module name="HotelService" />
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.project.gateway.ApiGatewayApplication" />
+      <module name="ApiGateway" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.project.hotel.service.*" />
+          <option name="PATTERN" value="com.project.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.project.config.server.ConfigServerApplication" />
+      <module name="ConfigServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.config.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,7 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceApplicationTests.createRating" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.project.user.service.UserServiceApplication" />
       <module name="UserService" />
       <extension name="coverage">
         <pattern>
@@ -102,20 +118,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.project.user.service" />
-      <option name="MAIN_CLASS_NAME" value="com.project.user.service.UserServiceApplicationTests" />
-      <option name="METHOD_NAME" value="createRating" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RatingServiceApplication" />
-        <item itemvalue="Application.HotelServiceApplication" />
-        <item itemvalue="JUnit.UserServiceApplicationTests.createRating" />
+        <item itemvalue="Application.UserServiceApplication" />
+        <item itemvalue="Application.ApiGatewayApplication" />
+        <item itemvalue="Application.ConfigServerApplication" />
         <item itemvalue="Application.ServiceRegistryApplication" />
+        <item itemvalue="Application.RatingServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -129,5 +142,15 @@
       <updated>1690570523498</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.web.client.HttpClientErrorException$Unauthorized" package="org.springframework.web.client" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
